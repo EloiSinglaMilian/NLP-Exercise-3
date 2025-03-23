@@ -453,7 +453,7 @@ for epoch in range(n_epochs):
 # If set to True, we check the accuracy on the test data
 if print_test_acc:
     test_scores = evaluate(nlp, test_data)
-    print(f"Train Tag Accuracy: {test_scores['tag_acc'] * 100:.2f}%")
+    print(f"Test Tag Accuracy: {test_scores['tag_acc'] * 100:.2f}%")
 
 
 ##################
